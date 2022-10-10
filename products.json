@@ -1,0 +1,76 @@
+{
+    "products": [
+        {
+            "item": "♥︎ Hello Kitty Bling ♥︎",
+          "description": "A Fan Favorite for Hello Kitty Lovers",
+            "price": "$35",
+            "image": "/images/product1.png"
+        },
+        {
+            "item": "♥︎ Dream Land ♥︎",
+          "description": "Sweety & Sassy",
+            "price": "$35",
+            "image": "/images/product2.png"
+        },
+        {
+            "item": "♥︎ Dark Lord ♥︎",
+          "description": "Unleash Your Vamp Side",
+            "price": "$30",
+            "image": "/images/product3.png"
+        },
+        {
+            "item": "♥︎ Turn Up the Punk ♥︎",
+          "description": "Make a Statement",
+            "price": "$40",
+            "image": "/images/product4.png"
+        },
+        {
+            "item": "♥︎ Paper Matters ♥︎",
+          "description": "For Bad & Boujie Bag Chasers",
+            "price": "$38",
+            "image": "/images/product5.png"
+        },
+        {
+            "item": "♥︎ Purp Universe ♥︎",
+          "description": "Subtle Reminder That You're Out of This World",
+            "price": "$33",
+            "image": "/images/product6.png"
+        },
+        {
+            "item": "♥︎ Pastel Dust ♥︎",
+          "description": "For Subtle, Feminine Bling",
+            "price": "$30",
+            "image": "/images/product7.png"
+        },
+        {
+            "item": "♥︎ XL Sweet Dreams ♥︎",
+          "description": "For Glam & Chic Lovers of Pink",
+            "price": "$35",
+            "image": "/images/product8.png"
+        },
+        {
+            "item": "♥︎ Bling Me Out ♥︎",
+          "description": "Bold & Kawaii",
+            "price": "$50",
+            "image": "/images/product9.png"
+        },
+        {
+            "item": "♥︎ Soft and Simple ♥︎",
+          "description": "Minimalist Elegance",
+            "price": "$25",
+            "image": "/images/product10.png"
+        },
+        {
+            "item": "♥︎ Spooky Season ♥︎",
+          "description": "Spook but Make it Cute",
+            "price": "$45",
+            "image": "/images/product11.png"
+        },
+        {
+            "item": "♥︎ XL Autumn Celebration ♥︎",
+          "description": "Welcoming Our Favorite Season",
+            "price": "$60",
+            "image": "/images/product12.png"
+        }
+    ]
+}

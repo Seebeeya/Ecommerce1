@@ -1,0 +1,491 @@
+/* MOBILE MEDIA QUERY */
+@media screen and (min-width: 374px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+  
+  body {
+  background: rgb(255,189,218);
+  background: radial-gradient(circle, rgba(255,189,218,1) 0%, rgba(195,216,240,1) 100%);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  }
+  
+  /*Carousel*/
+  img {
+    width: 100%;
+  }
+  
+  /*Navigation Bar*/
+  ul li a {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 28px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-family:'PT Sans Narrow', cursive;
+    text-transform: uppercase;
+    
+  }
+  
+  ul {
+    display: list-item;
+    list-style: none;
+    }
+  
+    .link ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      list-style: none;
+      
+    }
+  
+  
+    .link ul li a {
+      text-decoration: none;
+      font-size: 23px;
+      color: black;
+      font-family: 'Homemade Apple', cursive;
+      text-transform: lowercase;
+      
+    }
+  
+    /*Body text*/
+    h1 {
+      font-family: 'PT Sans', cursive;
+      font-size: 18px;
+      color: black;
+      margin-left: 30px;
+      text-align: center;
+    }
+  
+  
+    p {
+      font-family: 'PT Sans', cursive;
+      font-size: 15px;
+      color: black;
+      margin-left: 30px;
+      text-align: justify;
+      margin-right:35px;
+      text-indent: 2mm;
+    }
+    
+   /*Footer*/
+   .socialmedia {
+    text-align: center;
+  }
+  
+  #facebook,
+  #twitter,
+  #instagram,
+  #snapchat
+  {
+    padding: 7px;
+    font-size: 30px;
+    width: 40px;
+    text-decoration: none;
+    margin: 11px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .fa-facebook {
+    color: black;
+  }
+  
+  .fa-twitter {
+    color: black;
+  }
+  
+  .fa-instagram {
+    color: black;
+  }
+  
+  .fa-snapchat {
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  }
+  
+    }
+  
+  /* Product/Shop Page Text */
+        .products {
+          text-align: center;
+            font-size: 23px;
+          font-family:'PT Sans Narrow', cursive;
+         color: black;
+          margin-top: 110px;
+        }
+  
+  
+    /* Contact Page */
+  
+  label {
+    font-size: 21px;
+    font-family:'PT Sans', cursive;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    text-transform: capitalize;
+    font-size: 19px;
+  }
+  
+  input[type=submit] {
+    background-color: #A7C7E7;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 19px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: black;
+    color: hotpink;
+  }
+  
+  .contactcontainer {
+    border-radius: 5px;
+    background-color: rgb(255 243 248);
+    padding: 20px;
+  }
+  
+    /* TABLET MEDIA QUERY */
+  
+    @media screen and (min-width: 819px){
+      body {
+        background: rgb(255,189,218);
+        background: radial-gradient(circle, rgba(255,189,218,1) 0%, rgba(195,216,240,1) 100%);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        }
+        
+        /*Carousel*/
+        img {
+          width: 100%;
+        }
+        
+        /*Navigation Bar*/
+        ul li a {
+          
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          margin-right: 28px;
+          list-style: none;
+          text-decoration: none;
+          color: black;
+          font-size: 69px;
+          font-family:'PT Sans Narrow', cursive;
+          text-transform: uppercase;
+          
+        }
+        
+        ul {
+          display: list-item;
+          list-style: none;
+          }
+        
+          .link ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            list-style: none;
+            
+          }
+        
+        
+          .link ul li a {
+            text-decoration: none;
+            font-size: 51px;
+            color: black;
+            font-family: 'Homemade Apple', cursive;
+            text-transform: lowercase;
+            
+          }
+        
+          /*Body text*/
+          h1 {
+            font-family: 'PT Sans', cursive;
+            font-size: 37px;
+            color: black;
+            margin-left: 66px;
+            text-align: center;
+          }
+        
+          p {
+            font-family: 'PT Sans', cursive;
+            font-size: 30px;
+            color: black;
+            margin-left: 33px;
+            text-align: justify;
+            margin-right:35px;
+            text-indent: 5mm;
+          }
+          
+         /*Footer*/
+         .socialmedia {
+          text-align: center;
+        }
+        
+        #facebook,
+        #twitter,
+        #instagram,
+        #snapchat
+        {
+          padding: 7px;
+          font-size: 60px;
+          width: 40px;
+          text-decoration: none;
+          margin: 11px;
+          border-radius: 10px;
+          text-align: center;
+        }
+        
+        .fa-facebook {
+          color: black;
+        }
+        
+        .fa-twitter {
+          color: black;
+        }
+        
+        .fa-instagram {
+          color: black;
+        }
+        
+        .fa-snapchat {
+          color: black;
+          text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+        }
+    }
+  
+      /* Product/Shop Page Text */
+        .products {
+          text-align: center;
+            font-size: 45px;
+          font-family:'PT Sans Narrow', cursive;
+         color: black;
+          margin-top: 110px;
+        }
+          
+  
+          /* Contact Page */
+  
+  label {
+    font-size: 36px;
+    font-family:'PT Sans', cursive;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    text-transform: capitalize;
+    font-size: 29px;
+  }
+  
+  input[type=submit] {
+    background-color:#A7C7E7;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 32px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: black;
+    color: gold;
+  }
+  
+  .contactcontainer {
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(255 243 248);
+  }
+  
+    /* DESKTOP MEDIA QUERY */
+  
+    @media screen and (min-width: 1080px){
+      body {
+        background: rgb(255,189,218);
+        background: radial-gradient(circle, rgba(255,189,218,1) 0%, rgba(195,216,240,1) 100%);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        }
+        
+        /*Carousel*/
+  
+        img { /* Set display and margins to center it */
+          display: block;
+    margin-left: auto;
+    margin-right: auto; 
+          width: 800px; /* Set specific image size because I did not want it stretch across entire screen in desktop mode */
+        }
+        
+        /*Navigation Bar*/
+        ul li a {
+          
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          margin-right: 28px;
+          list-style: none;
+          text-decoration: none;
+          color: black;
+          font-size: 69px;
+          font-family:'PT Sans Narrow', cursive;
+          text-transform: uppercase;
+          
+        }
+        
+        ul {
+          display: list-item;
+          list-style: none;
+          }
+        
+          .link ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            list-style: none;
+            
+          }
+        
+        
+          .link ul li a {
+            text-decoration: none;
+            font-size: 51px;
+            color: black;
+            font-family: 'Homemade Apple', cursive;
+            text-transform: lowercase;
+            
+          }
+        
+          /*Body text*/
+          h1 {
+            font-family: 'PT Sans', cursive;
+            font-size: 37px;
+            color: black;
+            text-align: center;
+          }
+        
+          p {
+            font-family: 'PT Sans', cursive;
+            font-size: 30px;
+            color: black;
+            margin-left: 33px;
+            text-align: justify;
+            margin-right:35px;
+            text-indent: 11mm;
+          }
+          
+         /*Footer*/
+         .socialmedia {
+          text-align: center;
+        }
+        
+        #facebook,
+        #twitter,
+        #instagram,
+        #snapchat
+        {
+          padding: 7px;
+          font-size: 60px;
+          width: 40px;
+          text-decoration: none;
+          margin: 25px;
+          border-radius: 10px;
+          text-align: center;
+        }
+        
+        .fa-facebook {
+          color: black;
+        }
+        
+        .fa-twitter {
+          color: black;
+        }
+        
+        .fa-instagram {
+          color: black;
+        }
+        
+        .fa-snapchat {
+          color: black;
+          text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+        }
+        
+          }
+  
+  /* Product/Shop Page Text */
+        .products {
+          text-align: center;
+            font-size: 47px;
+          font-family:'PT Sans Narrow', cursive;
+         color: black;
+          margin-top: 110px;
+        }
+    
+          /* Contact Page */
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    text-transform: capitalize;
+    font-family: 'Homemade Apple', cursive;
+  }
+  
+  input[type=submit] {
+    background-color: #A7C7E7;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Homemade Apple', cursive;
+  }
+  
+  input[type=submit]:hover {
+    background-color: black;
+    color: hotpink;
+    font-family: 'Homemade Apple', cursive;
+  }
+  
+  .contactcontainer {
+    border-radius: 5px;
+    background-color: rgb(255 243 248);
+    padding: 20px;
+  }
